@@ -16,7 +16,7 @@ public class timestablechallenge {
 		System.out.println("High number?");
 		hi=in.nextInt();
 		System.out.println("Low number?");
-		low=hi=in.nextInt();
+		low=in.nextInt();
 	
 		for (x=low;x<=hi;x++) {
 			System.out.print("	"+x+" ");
