@@ -11,37 +11,27 @@ public class timestablechallenge {
 		//Setup Variables
 		int hi;
 		int low;
-		int num;
 		int x;
 
 		System.out.println("High number?");
 		hi=in.nextInt();
 		System.out.println("Low number?");
-		low=in.nextInt();
-
-		//Loop and ask questions
+		low=hi=in.nextInt();
+	
 		for (x=low;x<=hi;x++) {
-			System.out.print("	"+x+"  ");			
-		}
-		for (x=hi;x>=low;x++) {
-			
-		}
-		while (x<=hi) {
-			x++;
-
+			System.out.print("	"+x+" ");
 		}
 		for (x=low;x<=hi;x++) {
-			System.out.println(""+x+"");			
+			System.out.print("\n"+x+"");
+			for(int y=low;y<=hi;y++) {
+				System.out.print("	"+y*x+"");
+			}
+
 		}
-		for (x=hi;x>=low;x++) {
-			
-		}
-		while (x<=hi) {
-			x++;
 
 
 	}
-}}
+}
 
 
 
